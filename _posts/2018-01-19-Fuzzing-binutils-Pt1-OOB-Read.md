@@ -5,7 +5,6 @@ category: bug-hunting
 tags: bug-hunting fuzzing binutils vulnerability-research
 ---
 
-## Introduction
 A few weeks ago, I finally got around to trying out [American Fuzzy Lop](http://lcamtuf.coredump.cx/afl/) for this first time. From the afl home page:
 
 > "American fuzzy lop is a security-oriented fuzzer that employs a novel type of compile-time instrumentation and genetic algorithms to automatically discover clean, interesting test cases that trigger new internal states in the targeted binary."

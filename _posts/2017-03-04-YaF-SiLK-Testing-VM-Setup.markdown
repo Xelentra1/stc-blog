@@ -6,7 +6,6 @@ category: howto
 tags: security network-monitoring projects berry-sense
 ---
 
-## Overview
 I am currently in the process of developing a collection of tools to provide network security monitoring and  traffic analysis capabilities on a Raspberry Pi 3 called berry sense. After speaking with my mentor about this, he suggested I take a look at SiLK, a set of traffic analysis tools. Before any real development could begin, I needed to create a testing environment for these tools. This VM would be used solely for testing YaF+SiLK and generating output files that could later be used as template files for understanding how to process the data.
 
 ### SiLK

@@ -5,7 +5,6 @@ category: vuln-report
 tags: dlink cve exploit vulnerability
 ---
 
-## Overview
 While testing different inputs in the HNAP functionality of the D-Link DIR-605L/B, I managed to cause a reboot of the device by sending sufficiently large string values in the HTTP Basic Authentication password field. If a long enough value was sent, the next request to the web server would cause the crash. The PoC script below triggers this behavior.
 
 

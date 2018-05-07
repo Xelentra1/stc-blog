@@ -4,7 +4,7 @@ layout: post
 category: vuln-report
 tags: bug-hunting dlink cve exploit
 ---
-## Introduction
+
 With the wave of IoT/embedded device security incidents that struck last year, I became interested in looking for vulnerabilities in some of the devices I had laying around and in use around the house. Because I’m aware of the security and privacy issues most of these devices present, I don’t own many to begin with. I chose the D-Link DIR-615L out of the pile of old routers I had in a box mostly on a whim and it turned out to be a great place to start. 
 
 After a few weeks of testing, I discovered a bug that allowed me to restart the router by sending a single GET request to it's web server. I decided to focus on this bug and attempt to identify it's location and root cause. With only a limited knowledge of C and MIPS assembly, it turned out to be a good challenge and learning experience. Overall, it was a fun project and I was able to get my first CVE assigned for this vulnerability. This was also my first time reporting a vulnerability to a vendor and I was really pleased to have gotten such a quick responses and remediation from D-Link. 

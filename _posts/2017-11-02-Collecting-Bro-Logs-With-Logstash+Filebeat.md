@@ -4,7 +4,6 @@ layout: post
 category: howto
 tags: logstash bro
 ---
-## Getting Started
 I recently completed a project in which I wanted to collect and parse Bro logs with ELK stack. Elasticsearch's powerful querying capabilites and Kibana's visualizations are very useful for making sense of the large quantities of data that Bro can produce in a few hours. Breaking the logs down and parsing them into Elasticsearch increases the usefulness of the data by providing a larger scope of visibility and a way to quickly get a sense of trends and what the network normally looks like. 
 
 The few guides I found (including one on the Elastic website) assumed Logstash would be running on the same host as Bro, but in my case, I wanted one central ELK server and to have Bro logs forwarded to Logstash and then Elasticsearch. 

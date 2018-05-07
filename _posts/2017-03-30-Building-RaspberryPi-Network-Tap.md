@@ -4,7 +4,7 @@ layout: post
 category: howto
 tags: network-monitoring rpi berry-sense tutorial
 ---
-# Overview
+
 While working on berry-sense and learning about network traffic analysis recently, I had the need for a dedicated device to use as an Ethernet bridge/tap for capturing traffic. This would give me a chance to test the Raspberry Pi's performance while performing traffic captures, as well as produce a usable device for performing simple captures.
 
 

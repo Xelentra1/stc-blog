@@ -3,7 +3,7 @@ title: "tiny-web-server: Buffer Overflow Discovery + PoC ret2libc->exit()"
 layout: post
 tags: bugs hunting poc
 ---
-## Overview
+
 I decided to hunt for bugs in code from Github to practice code auditing and exploit development, focusing on projects written in C. One of my searches was for web servers and that's how I came across [tiny-web-server](https://github.com/shenfeng/tiny-web-server).
 
 tiny-web-server is composed of a single source file. It's GitHub page has the description " a tiny web server in C, for daily use", and appears to be an implementation of a lightweight webserver from a textbook. This seemed like an easy place to start. I began by compiling with the following options, disabling the stack canary and making the stack non-executable. 
