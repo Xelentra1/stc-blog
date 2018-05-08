@@ -9,4 +9,4 @@ layout: home
 ---
 
 ## Welcome
-This is Surfing the Cyber, my personal blog about vulnerability research, network security, software development, and other technical rambling.
+This is **`Surfing the Cyber`**, my personal blog about vulnerability research, network security, software development, and other technobabble.
