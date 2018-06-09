@@ -7,6 +7,7 @@ description: > # this means to ignore newlines until "twitter_username:"
 twitter_username: _hyperlogic
 github_username:  mellow-hype
 rss: rss
+url: https://surfingthecyber.com/
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
